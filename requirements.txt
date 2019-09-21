@@ -1,4 +1,1 @@
 vk_api
-django
-gunicorn
-django-heroku
