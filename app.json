@@ -16,6 +16,7 @@
   },
   "name": "columbo-gs",
   "scripts": {
+    "start": "chat.py"
   },
   "stack": "heroku-18"
 }
