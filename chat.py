@@ -9,7 +9,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 from vk_api.utils import get_random_id
 
 def user_oauth():
-    vk_session = vk_api.VkApi('+79854159202', '929227007Asdec#@')
+    vk_session = vk_api.VkApi()
     try:
         vk_session.auth(token_only=True)
     except vk_api.AuthError as error_msg:
@@ -114,7 +114,7 @@ def wall_rep(attach):
         ) 
 
 def main():
-    vk_session = vk_api.VkApi(token='5ffe6fe3f6eed9755f09611d9e639a4e36617ad7f8f88ff8565304f9a77c007faddb872194ec0ca48c831')
+    vk_session = vk_api.VkApi(token='')
     vk = vk_session.get_api()
 
     upload = VkUpload(vk_session)  # Для загрузки изображений
